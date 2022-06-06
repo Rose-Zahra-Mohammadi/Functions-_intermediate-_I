@@ -66,7 +66,7 @@ def printInfo(some_dict):
     for key in some_dict:
         KEY = key.upper()
         print(str(len(some_dict[key])) +" " + KEY)
-        for elements in some_dict[key]:
-            print(e)
+        for element in some_dict[key]:
+            print(element)
 
 printInfo(dojo)
